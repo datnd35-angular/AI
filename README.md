@@ -114,12 +114,43 @@ Hi vọng bài học này đã giúp bạn hiểu rõ hơn về ML và cách nó
 
 ***Deep learning*** là một công cụ cách mạng trong AI nhờ khả năng phân tích các tập dữ liệu lớn, nhiều chiều và nhận dạng các mẫu phức tạp với độ chính xác cao, đó là điều làm cho sự tiến bộ đáng kinh ngạc của AI ngày nay trở nên khả thi.
 
+# Key AI technique
 
+***1. Robotics***
 
+Câu chuyện về các sinh vật cơ khí có từ thời cổ đại. Ví dụ, thần thoại về Talos mô tả một người khổng lồ bằng đồng được Hephaestus, vị thần Hy Lạp của sáng tạo và thợ rèn, tạo ra với nhiệm vụ bảo vệ Crete. Hình đồng này tuần tra đảo ba lần mỗi ngày, ném đá vào các tàu thuyền của kẻ thù đến gần bờ.
 
+Trong thời Trung cổ phương Tây và Hồi giáo, các thiết bị như các tự động của Al-Jazari, bao gồm đồng hồ nước và máy móc lập trình, thể hiện tài năng kỹ thuật sớm. Leonardo da Vinci, một trong những người tiên phong lớn của thời kỳ Phục hưng Italy, đã phác thảo thiết kế của một hiệp sĩ cơ khí có thể di chuyển giới hạn, tiên đoán về các rô-bốt hình người hiện nay.
 
+Ý tưởng về rô-bốt và lĩnh vực rô-bốt không mới. Con người đã bị cuốn hút bởi chúng từ lâu. Đó là một hiện tượng thực sự trong văn hóa đại chúng, thu hút trí tưởng tượng của nhiều thế hệ. Ngày nay, nhờ những tiến bộ công nghệ nhanh chóng và chủ yếu là sự phát triển của AI, việc tạo ra các máy thông minh mà trước đây chúng ta chỉ có thể tưởng tượng và mô tả trong phim là khả thi.
 
+Rô-bốt là nhánh của công nghệ liên quan đến việc thiết kế, chế tạo, vận hành và sử dụng rô-bốt – những máy móc có thể thực hiện các nhiệm vụ tự động hoặc với khả năng giống con người. Các kỹ sư cơ khí chịu trách nhiệm thiết kế và xây dựng cấu trúc vật lý của rô-bốt, bao gồm cơ chế di chuyển của nó. Các kỹ sư điện tử và điện học thiết kế các hệ thống cho phép rô-bốt hoạt động và kiểm soát hành động của nó. Trong khi các điện tử cung cấp năng lượng cho hệ thống, nhiều loại AI điều khiển quyết định và hành vi của rô-bốt. Rô-bốt được trang bị nhiều loại cảm biến và camera để thu thập dữ liệu cần thiết và nhận thức môi trường xung quanh.
 
+Rô-bốt được thiết kế để mô phỏng và bổ sung khả năng của con người, do đó yêu cầu một cách tiếp cận liên ngành kết hợp nhiều công nghệ AI khác nhau. Ví dụ, một rô-bốt Automatas có thể sử dụng thị giác máy tính để phát hiện đối tượng và hiểu môi trường, định vị đồng thời và lập bản đồ cho việc định vị và lập bản đồ, học tăng cường để ra quyết định, và một mô hình xử lý ngôn ngữ tự nhiên để hiểu và tạo ngôn ngữ của con người.
 
+Một số ứng dụng thú vị của rô-bốt bao gồm rô-bốt y tế có thể thực hiện can thiệp y tế chính xác và phẫu thuật phức tạp, rô-bốt tự lái, rô-bốt thu hoạch, rô-bốt làm sạch, rô-bốt không gian, rô-bốt tìm kiếm và cứu hộ, và rô-bốt an ninh và giám sát. Tương lai đã đến, và AI đứng đầu trong tất cả các đổi mới này.
 
+***2. Computer vision***
+
+- IBM định nghĩa tầm nhìn máy tính là một lĩnh vực AI sử dụng học máy và mạng nơ-ron để dạy máy tính hiểu thông tin có ý nghĩa từ hình ảnh và video kỹ thuật số. Nếu AI đóng vai trò là não bộ, thì tầm nhìn máy tính là "mắt" của máy tính. Con người dễ dàng hiểu môi trường xung quanh với sự tinh tế của nó, phân biệt các vật thể chuyển động, hình dạng thay đổi và màu sắc khác nhau. Nghiên cứu tầm nhìn máy tính là nỗ lực lớn để phát triển các mô hình AI phức tạp cho phép máy tính hiểu thông tin thế giới thực.
+
+- Máy tính tiêu thụ dữ liệu qua hình ảnh và video. Hình ảnh đơn giản hơn vì chúng ghi lại một khoảnh khắc tĩnh, trong khi video phức tạp hơn với các dãy hình ảnh liên tục (ví dụ, 30 khung hình mỗi giây) yêu cầu xử lý. Có bốn nhóm chính của các mô hình tầm nhìn máy tính:
+
+- ***Mạng nơ-ron tích chập (CNNs):*** CNNs là nền tảng của tầm nhìn máy tính vì chúng rất hiệu quả với dữ liệu có chiều cao. Chúng tổ chức các yếu tố trong hình ảnh dựa trên tầm quan trọng và độ sâu. CNNs học các đặc trưng cơ bản như cạnh của vật thể ở các lớp đầu tiên và dần dần nắm bắt các đặc trưng phức tạp như hình dạng và các đối tượng ở các lớp sâu hơn.
+
+- ***Transformers:*** Đôi khi AI sử dụng kiến trúc transformer cho mục đích tầm nhìn máy tính.
+
+- ***Mạng đối kháng sinh tạo (GANs):*** Chủ yếu tạo ra hình ảnh sống động.
+
+- ***Mạng chuyên biệt như U-Net:*** Xuất sắc trong việc phân đoạn hình ảnh y tế.
+
+- ```Computer vision``` có rất nhiều ứng dụng thực tế như xe tự lái, hình ảnh y tế, an ninh, giám sát và các lĩnh vực trước đây đã được thảo luận. Tầm nhìn máy tính không nhất thiết phải là một phần của rô-bốt để trở thành một sản phẩm cực kỳ hữu ích. Ví dụ, phần mềm nhận dạng khuôn mặt chỉ là một mô hình được tích hợp trong sản phẩm phần mềm mà không cần thân rô-bốt. Các tiến bộ quan trọng nhất trong tầm nhìn máy tính hiện nay đang diễn ra trong thực tế ảo, cách mạng hóa các ngành công nghiệp như giáo dục, giải trí và giao tiếp từ xa. Trong bài học tiếp theo, chúng ta sẽ thảo luận về các phương pháp học máy truyền thống.
+
+***3. Traditional ML***
+
+Sản phẩm như ChatGPT, xe tự lái của Tesla và rô-bốt gây sự chú ý, nhưng phần lớn giá trị mà AI tạo ra hiện nay lại đến từ các ứng dụng kinh doanh ít nổi bật hơn. Các tổ chức tài chính sử dụng máy học để phát hiện hoạt động gian lận hoặc dự đoán khả năng khách hàng trả nợ thế chấp. Các công ty bảo hiểm sử dụng máy học để định giá chính xác hơn các gói bảo hiểm. Các công ty bán lẻ dự đoán nhu cầu và tối ưu hóa đơn đặt hàng. Các gã khổng lồ thương mại điện tử như Amazon tối ưu hóa giá và tỷ lệ chuyển đổi thông qua các thuật toán máy học. Những ứng dụng này và nhiều trường hợp khác đã tồn tại hơn một thập kỷ. Rất ít doanh nghiệp thất bại khi sử dụng AI. Chúng ta cần nhớ rằng mặc dù AI tổng quát đang trở nên phổ biến và hứa hẹn, nhưng các ứng dụng AI truyền thống tôi đã đề cập tiếp tục ảnh hưởng đến doanh nghiệp và mang lại giá trị đáng kể.
+
+***4. Generative AI***
+
+```ChatGPT``` trở thành hiện tượng toàn cầu khi ra mắt, gây sự phấn khích rộng rãi về tiềm năng vượt trội của AI. Nhánh AI đằng sau những mô hình ấn tượng như ```ChatGPT``` được gọi là ```generative AI```. ```Generative AI``` có khả năng tạo ra dữ liệu hoặc nội dung mới từ các mẫu học được từ dữ liệu đào tạo. Các cuộc trò chuyện với ChatGPT là mở và không giới hạn, với mô hình này tạo ra phản hồi mới và độc đáo theo thời gian thực. ```Dall-E``` của OpenAI, mô hình tạo ảnh, cũng sử dụng khả năng này để tạo ra hình ảnh mới từ các mô tả chi tiết. Các kỹ thuật generative AI khác nhau như ```large language models, diffusion models, generative adversarial networks, neural radiance fields,``` và các mô hình lai cũng đang được phát triển. Generative AI có thể tạo ra nội dung dưới nhiều định dạng khác nhau như văn bản, hình ảnh, video, âm thanh, dữ liệu, mã, thiết kế, và 3D. Với sự phát triển của công nghệ, generative AI sẽ có ảnh hưởng lớn đến thế giới doanh nghiệp, và việc hiểu rõ về nó sẽ giúp chúng ta đi đầu trong sự đổi mới này.
 
