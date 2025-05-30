@@ -1,5 +1,147 @@
 
 
+# Diagram: Củng cố kiến thức học **AI**
+
+### 1. 🌱 **Hiểu đúng về AI là gì**
+
+```
++-----------------------------+
+| 🤖 AI là ngành mô phỏng trí tuệ |
+|    con người bằng máy móc     |
++-----------------------------+
+
+📌 Gồm 3 nhánh chính:
+- ML (Machine Learning)
+- DL (Deep Learning)
+- NLP (Natural Language Processing)
+```
+
+> ✅ Không phải học AI là phải học tất cả cùng lúc → nên chọn đúng hướng theo mục tiêu.
+
+
+### 2. **Tư duy nền tảng AI**
+
+```
++------------------------------------+
+| 🔍 AI không phải là ma thuật:      |
+|   - Input → Model học → Dự đoán    |
+|   - Cần data, thuật toán, và huấn luyện |
++------------------------------------+
+
+📌 AI = Data + Math + Code
+```
+
+
+### 3. **Lộ trình học AI cơ bản**
+
+```
+Giai đoạn 1: Cơ bản
+- Tư duy toán: ma trận, xác suất, đạo hàm
+- Python + thư viện (numpy, pandas, matplotlib)
+- Thống kê & trực quan hóa
+
+Giai đoạn 2: Machine Learning
+- Học Supervised vs Unsupervised Learning
+- Thư viện scikit-learn
+- Các mô hình cơ bản: Linear Regression, KNN, Decision Tree
+
+Giai đoạn 3: Deep Learning
+- Nắm kiến thức Neural Network
+- Sử dụng TensorFlow / PyTorch
+- Làm bài toán Image, Text
+
+Giai đoạn 4: Ứng dụng & Dự án
+- Phân loại hình ảnh, dự đoán giá, chatbot, dịch ngôn ngữ
+- Làm portfolio / GitHub
+```
+
+
+### 4. **Kiến thức Toán học nền tảng cần có**
+
+```
++------------------------------+
+| 🔢 Đại số tuyến tính         |
+| 📊 Xác suất - Thống kê       |
+| 🔁 Giải tích (đạo hàm, vi phân) |
+| 📐 Hàm mất mát & tối ưu hóa   |
++------------------------------+
+
+📌 Dành 20–30% thời gian học toán để hiểu rõ model AI.
+```
+
+
+### 5. **Các mô hình học máy phổ biến**
+
+```
+🧠 Supervised Learning:
+- Linear Regression
+- Logistic Regression
+- Decision Tree, Random Forest
+- SVM
+- KNN
+
+🧩 Unsupervised Learning:
+- K-means clustering
+- PCA
+- DBSCAN
+
+🎯 Reinforcement Learning (cao cấp):
+- Q-Learning
+- Deep Q Network
+```
+
+
+### 6. **Cấu trúc một mô hình Deep Learning**
+
+```
++----------------------------+
+| 📥 Input (data)            |
+| 🔁 Layers (ẩn, activation) |
+| 📤 Output (prediction)     |
++----------------------------+
+
+📌 Huấn luyện (train) → kiểm tra (test) → đánh giá (evaluate)
+```
+
+### 7. **Công cụ và thư viện nên học**
+
+```
++-----------------------------+
+| ✅ Python                   |
+| ✅ NumPy, Pandas            |
+| ✅ Scikit-learn (ML)        |
+| ✅ TensorFlow / PyTorch (DL)|
+| ✅ OpenCV (xử lý ảnh)       |
+| ✅ HuggingFace (NLP, LLM)   |
++-----------------------------+
+```
+
+
+### 8. **Dự án thực chiến nên làm**
+
+```
+🖼 Phân loại ảnh: mèo vs chó
+📉 Dự đoán giá nhà
+✉️ Phân tích cảm xúc tweet (NLP)
+🎙 Tạo chatbot AI cơ bản
+📷 Nhận diện khuôn mặt
+🧠 AI học chơi game đơn giản (Reinforcement Learning)
+```
+
+
+### 9. **Học AI với LLMs (AI thế hệ mới)**
+
+```
+- GPT, BERT, T5 là các mô hình ngôn ngữ lớn
+- Sử dụng qua HuggingFace Transformers
+- Biết về Prompt Engineering
+- Biết cách Fine-tune mô hình LLM (nâng cao)
+```
+
+
+
+# Lý thuyết 
+
 ## Những mốc quan trọng trong lịch sử AI
 - 1950 - Alan Turing và bài kiểm tra Turing: Turing đặt câu hỏi "Máy móc có thể suy nghĩ không?" và giới thiệu tiêu chuẩn (Turing Test) để đánh giá trí tuệ máy móc.
 - 1956 - Hội nghị Dartmouth: Thuật ngữ "AI" được ra đời, đánh dấu AI trở thành lĩnh vực nghiên cứu chính thức.
